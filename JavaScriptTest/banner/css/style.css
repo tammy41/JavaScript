@@ -1,0 +1,164 @@
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+body {
+	font-family: 微软雅黑;
+	color: #666;
+	font-size: 12px;
+	background: #eeeff1;
+}
+.row-1 {
+	width: 8.33333333%;
+	float: left;
+}
+.row-2 {
+	width: 16.66666666%;
+	float: left;
+}
+.row-3 {
+	width: 24.99999999%;
+	float: left;
+}
+.row-4 {
+	width: 33.33333332%;
+	float: left;
+}
+.row-5 {
+	width: 41.66666665%;
+	float: left;
+}
+.row-6 {
+	width: 49.99999998%;
+	float: left;
+}
+.row-7 {
+	width: 58.33333331%;
+	float: left;
+}
+.row-8 {
+	width: 66.66666664%;
+	float: left;
+}
+.row-9 {
+	width: 74.99999997%;
+	float: left;
+}
+.row-10 {
+	width: 83.333333330%;
+	float: left;
+}
+.row-11 {
+	width: 91.66666663%;
+	float: left;
+}
+.row-12 {
+	width: 99.99999996%;
+	float: left;
+}
+.wrap {	
+	width: 100%;
+	height: auto;
+}
+/*头部*/
+.banner {
+	width: 100%;
+	height: 100px;
+	background-color: #4A8ACA;
+}
+.banner > div {
+	width: 100%;
+	padding: 0 2%;
+}
+.banner-top {
+	height: 56px;
+}
+.banner-bottom {
+	height: 44px;
+	background-color: #fff;
+}
+.banner-logo {
+	width: 134px;
+	height: 56px;
+	background-color: #5094DB;
+	float: left;
+	padding: 6px 17px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../img/logo.png);
+}
+.banner-set {
+	height: 20px;
+	float: right;
+	color: #FFFFFF;
+	margin-top: 17px;
+	margin-right: -2%;
+}
+.banner-set ul > li {
+	float: left;
+	display: block;
+	padding: 0px 30px 0px 10px;
+	width: auto;
+}
+.banner-set .icon {
+	margin-right: 5px;
+	font-size: 13px;
+}
+.banner-message {} .banner-user {} .banner-exit {} .banner-info {
+	padding-top: 9px;
+}
+.search-inside {
+	width: 150px;
+	height: 100%;
+	border: #ccc 1px solid;
+	border-radius: 2px;
+	padding: 5px;
+	color: #999;
+	font-size: 12px;
+}
+.group-info {
+	display: inline-block;<!-- 在同一行内的块级元素 -->
+}
+.group-info > li {
+	float: left;
+	line-height: 5px;
+	padding: 2px 15px;
+}
+.group-info > li > span {
+	color: #4A8ACA;
+	margin-left: 10px;
+}
+
+/*面包线导航*/
+.breadNav {
+	font-size: 15px;
+	line-height: 0em;
+	font-weight: bold;
+}
+.breadNav i {
+	margin: 0px 10px;
+}
+.breadNav span {
+	color: #5094DB;
+}
+.breadNav span b {
+	margin: 0 10px;
+}
+/*面包线导航*/
