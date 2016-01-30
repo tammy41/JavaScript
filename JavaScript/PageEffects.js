@@ -39,3 +39,5 @@ function TxtFlash2(which){
   if (document.all.flashtext.filters[0].strength==2) document.all.flashtext.filters[0].strength=1
   else document.all.flashtext.filters[0].strength=2
 }
+
+
